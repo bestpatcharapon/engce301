@@ -1,7 +1,8 @@
 class Helper {
-    //This is necessary for determinig if it is a build or a dev app
+    // This is necessary for determining if it is a build or a dev app
     static isDev() {
-        return process.mainModule.filename.indexOf('app.asar') === -1;
+        const filename = (process.mainModule && process.mainModule.filename) || (require.main && require.main.filename);
+        return filename.indexOf('app.asar') === -1;
     }
 }
 
