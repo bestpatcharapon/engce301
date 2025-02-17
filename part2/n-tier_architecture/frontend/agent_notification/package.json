@@ -35,7 +35,7 @@
     "author": "Thanit Keatkaew, SE RMUTL",
     "license": "ISC",
     "devDependencies": {
-        "electron": "^34.2.0",
+        "electron": "^23.1.2",
         "electron-builder": "latest",
         "electron-packager": "^17.1.2"
     },
@@ -43,7 +43,6 @@
         "@electron/remote": "^1.2.2",
         "@primer/octicons": "^12.1.0",
         "body-parser": "^1.19.0",
-        "bootstrap": "^5.3.3",
         "easytimer.js": "^4.3.2",
         "feather-icons": "^4.29.0",
         "jquery": "^3.6.3",
