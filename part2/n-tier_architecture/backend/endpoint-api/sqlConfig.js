@@ -16,7 +16,7 @@ var dbconfig = {
     },
     production: {
         server: '10.21.47.33', //CE Lab Server
-        database:'team3_engce301_db',
+        database:'team0_engce301_db',
         user:'team3',
         password:'P@ssw0rd',
         port: 1433,
