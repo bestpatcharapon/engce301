@@ -96,7 +96,6 @@ const init = async () => {
 
   server.auth.strategy("simple", "bearer-access-token", {
     allowQueryToken: true, // optional, false by default
-    unauthorized: () => unauthorized("Invalid Auth key."),
     validate: async (request, token, h) => {
       // here is where you validate your token
       // comparing with token from your database for example
