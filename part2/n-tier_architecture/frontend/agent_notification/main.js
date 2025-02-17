@@ -2,6 +2,7 @@
 const { app } = require('electron')
 const WindowManager = require('./Scripts/WindowManager.js');
 
+app.disableHardwareAcceleration()
 //Main Object responsible for managing the electron windows is created
  windowManager = new WindowManager();
 
