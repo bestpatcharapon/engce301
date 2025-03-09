@@ -1,0 +1,4 @@
+{"address":"::","code":"EADDRINUSE","errno":-98,"level":"error","port":4000,"syscall":"listen","timestamp":"2025-03-01T15:29:25.731Z"}
+{"address":"::","code":"EADDRINUSE","errno":-98,"level":"error","port":4000,"syscall":"listen","timestamp":"2025-03-01T15:30:22.415Z"}
+{"address":"::","code":"EADDRINUSE","errno":-98,"level":"error","port":4000,"syscall":"listen","timestamp":"2025-03-01T15:30:27.122Z"}
+{"address":"::","code":"EADDRINUSE","errno":-98,"level":"error","port":4000,"syscall":"listen","timestamp":"2025-03-01T15:30:34.021Z"}

@@ -1,21 +1,20 @@
+const { app } = require("electron");
+const WindowManager = require("./Scripts/WindowManager.js");
 
-const { app } = require('electron')
-const WindowManager = require('./Scripts/WindowManager.js');
-
-app.disableHardwareAcceleration()
+app.disableHardwareAcceleration();
 //Main Object responsible for managing the electron windows is created
- windowManager = new WindowManager();
+windowManager = new WindowManager();
 
 //Called when Electron is ready
 //This creates the browser windows and tray in the menu bar
-app.on('ready', windowManager.createUI.bind(windowManager));
+app.on("ready", windowManager.createUI.bind(windowManager));
 
 //When all windows are closed
-app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') {
-    app.quit()
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") {
+    app.quit();
   }
-})
+});
 
 //--- When use self-signing certificate must be uncomment this line below. ---
 app.commandLine.appendSwitch("ignore-certificate-errors");
@@ -23,13 +22,13 @@ app.commandLine.appendSwitch("ignore-certificate-errors");
 //-----------------------
 
 // In main process.
-const { ipcMain } = require('electron')
-ipcMain.on('asynchronous-message', (event, arg) => {
-  console.log(arg) // prints "ping"
-  event.reply('asynchronous-reply', 'pong')
-})
+const { ipcMain } = require("electron");
+ipcMain.on("asynchronous-message", (event, arg) => {
+  console.log(arg); // prints "ping"
+  event.reply("asynchronous-reply", "pong");
+});
 
-ipcMain.on('synchronous-message', (event, arg) => {
-  console.log(arg) // prints "ping"
-  event.returnValue = 'pong'
-})
+ipcMain.on("synchronous-message", (event, arg) => {
+  console.log(arg); // prints "ping"
+  event.returnValue = "pong";
+});
