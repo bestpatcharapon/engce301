@@ -1,0 +1,17 @@
+{"level":"warn","message":"DeprecationWarning: The Parse Server option 'allowClientClassCreation' default will change to 'false' in a future version.","timestamp":"2025-03-17T14:09:58.200Z"}
+{"level":"warn","message":"DeprecationWarning: The Parse Server option 'allowExpiredAuthDataToken' default will change to 'false' in a future version.","timestamp":"2025-03-17T14:09:58.201Z"}
+{"level":"warn","message":"DeprecationWarning: The Parse Server option 'encodeParseObjectInCloudFunction' default will change to 'true' in a future version.","timestamp":"2025-03-17T14:09:58.201Z"}
+{"level":"info","message":"Parse LiveQuery Server started running","timestamp":"2025-03-17T14:09:58.241Z"}
+{"level":"warn","message":"DeprecationWarning: The Parse Server option 'allowClientClassCreation' default will change to 'false' in a future version.","timestamp":"2025-03-17T14:10:16.894Z"}
+{"level":"warn","message":"DeprecationWarning: The Parse Server option 'allowExpiredAuthDataToken' default will change to 'false' in a future version.","timestamp":"2025-03-17T14:10:16.895Z"}
+{"level":"warn","message":"DeprecationWarning: The Parse Server option 'encodeParseObjectInCloudFunction' default will change to 'true' in a future version.","timestamp":"2025-03-17T14:10:16.895Z"}
+{"level":"info","message":"Parse LiveQuery Server started running","timestamp":"2025-03-17T14:10:16.939Z"}
+{"level":"warn","message":"DeprecationWarning: The Parse Server option 'allowClientClassCreation' default will change to 'false' in a future version.","timestamp":"2025-03-17T14:11:41.080Z"}
+{"level":"warn","message":"DeprecationWarning: The Parse Server option 'allowExpiredAuthDataToken' default will change to 'false' in a future version.","timestamp":"2025-03-17T14:11:41.081Z"}
+{"level":"warn","message":"DeprecationWarning: The Parse Server option 'encodeParseObjectInCloudFunction' default will change to 'true' in a future version.","timestamp":"2025-03-17T14:11:41.082Z"}
+{"level":"info","message":"Parse LiveQuery Server started running","timestamp":"2025-03-17T14:11:41.131Z"}
+{"level":"warn","message":"DeprecationWarning: The Parse Server option 'allowClientClassCreation' default will change to 'false' in a future version.","timestamp":"2025-03-17T14:12:59.229Z"}
+{"level":"warn","message":"DeprecationWarning: The Parse Server option 'allowExpiredAuthDataToken' default will change to 'false' in a future version.","timestamp":"2025-03-17T14:12:59.230Z"}
+{"level":"warn","message":"DeprecationWarning: The Parse Server option 'encodeParseObjectInCloudFunction' default will change to 'true' in a future version.","timestamp":"2025-03-17T14:12:59.230Z"}
+{"level":"info","message":"Parse LiveQuery Server started running","timestamp":"2025-03-17T14:12:59.274Z"}
+{"functionName":"postOnlineAgentListByTeam","level":"info","message":"Ran cloud function postOnlineAgentListByTeam for user undefined with:\n  Input: {\"AgentCode\":\"9999\",\"AgentName\":\"Test\",\"Team\":\"6\",\"AgentStatus\":\"1\",\"AgentStatusCode\":\"1\",\"IsLogin\":\"1\"}\n  Result: 0","params":{"AgentCode":"9999","AgentName":"Test","AgentStatus":"1","AgentStatusCode":"1","IsLogin":"1","Team":"6"},"timestamp":"2025-03-17T14:17:12.733Z"}
