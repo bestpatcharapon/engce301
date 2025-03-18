@@ -1,39 +1,52 @@
-# ENGCE301 Software Design and Development                                                   
+# ENGCE301 Software Design and Development  TermProject Team03                                              
 
  
 
 ## **Overview** 
-R1.1 Agent สามารถ Login โดยใช้ Password ได้ โดยถ้า Password ผิดจะไม่สามารถ login ได้
+![enter image description here](https://img5.pic.in.th/file/secure-sv1/1.1c15feb4ff69d19d0.png)
 
-## Agent-notification
+**R1.1**
 
-After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
+![enter image description here](https://img5.pic.in.th/file/secure-sv1/1.1a19763cd324c1296.png)
 
-> **Note:** The **Publish now** button is disabled if your file has not been published yet.
+**R1.2 , **R2.2****
 
-## **Agent Wallboard**
+![enter image description here](https://img2.pic.in.th/pic/1.2fc88b1fc8e2a826e.png)
 
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
+**R1.3, **R2.2****
+
+![enter image description here](https://img5.pic.in.th/file/secure-sv1/1.390b898b63ae21bcb.png)
+
+
+**R1.4**
+
+![enter image description here](https://img2.pic.in.th/pic/1.44f198d9161e23920.png)
 
 
 # **สิ่งที่ต้องส่งมอบ**
 *1. เอกสารออกแบบ*
 
-**1.1 DFD**
+## **1.1 DFD**
 
 ![enter image description here](https://img5.pic.in.th/file/secure-sv1/DFD7f82976e8d16ce2a.png)
-
-**ER Diagram**
+## **ER Diagram**
 
 ![enter image description here](https://img2.pic.in.th/pic/ER-diagram.png)
-
-**1.2 Activity Flow Diagram การทำงาน**
+## **1.2 Activity Flow Diagram การทำงาน**
 
 ![enter image description here](https://img5.pic.in.th/file/secure-sv1/Activity-Flow-Diagram.png)
 
-## SmartyPants
+## **1.3 Test Case และผลการทดสอบ**
 
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
+**Test Case (Agent Notification)**
+
+|                |ASCII                          |HTML                         |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
+**Test Case (Agent Wallboard)**
 
 |                |ASCII                          |HTML                         |
 |----------------|-------------------------------|-----------------------------|
