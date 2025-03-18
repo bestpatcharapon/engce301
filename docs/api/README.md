@@ -8,7 +8,7 @@ This README.md file provides an overview of the API documentation for our projec
 
   - [/api/v1/login](./endpoint-api/login.md)
   - [/api/v1/logout](./endpoint-api/logout.md)
-  - [/api/v1/postOnlineAgentStatus](./endpoint-api/postOnlineAgentStatus.md)
+  - [/api/v1/postOnlineAgentStatus](./endpoint-api/pastOnlineAgentStatus.md)
   - [/api/v1/postSendMessage](./endpoint-api/postSendMessage.md)
 
 - Parse server
