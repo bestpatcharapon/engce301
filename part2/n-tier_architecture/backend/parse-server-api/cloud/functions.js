@@ -147,6 +147,16 @@ Parse.Cloud.define("postOnlineAgentListByTeam", async (request) => {
 
             } else {
                 //  Found record
+        const agentStatusHistories = new Parse.Object("AgentStatusHistories");
+        agentStatusHistories.set("agent_code", AgentCode);
+        agentStatusHistories.set("agent_name", AgentName);
+        agentStatusHistories.set(
+          "status_from",
+          results.get("AgentStatus") || "-"
+        );
+        agentStatusHistories.set("status_to", AgentStatus);
+        agentStatusHistories.save();
+                
                 // Update Data
 
                 if (AgentName != undefined) results.set("AgentName", AgentName);
