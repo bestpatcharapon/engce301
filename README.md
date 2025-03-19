@@ -20,7 +20,7 @@
 
 **R1.4**
 
-![enter image description here](https://img2.pic.in.th/pic/1.44f198d9161e23920.png)
+![enter image description here](https://img2.pic.in.th/pic/Screenshot-2025-03-20-021606.png)
 
 
 # **สิ่งที่ต้องส่งมอบ**
