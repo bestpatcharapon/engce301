@@ -59,10 +59,12 @@
 
 
 ## **API Specification**
-**Link  API Specification documentation : [This Link](./docs/api/README.md). **
+Link  API Specification documentation : [This Link](./docs/api/README.md). 
+
 
 ## **Project Link**
-**หน้า Wallboard สามารถเข้าชมได้ที่ : [This Link](https://lab-wb.cpe-rmutl.net/team03/#/wallboard). **
+หน้า Wallboard สามารถเข้าชมได้ที่ : [This Link](https://lab-wb.cpe-rmutl.net/team03/#/wallboard). 
+
 
 ## **Team Project**
 
