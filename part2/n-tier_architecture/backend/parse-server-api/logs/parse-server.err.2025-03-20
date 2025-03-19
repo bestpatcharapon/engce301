@@ -1,0 +1,2 @@
+{"address":"::","code":"EADDRINUSE","errno":-98,"level":"error","port":5003,"syscall":"listen","timestamp":"2025-03-19T18:36:14.175Z"}
+{"address":"::","code":"EADDRINUSE","errno":-98,"level":"error","port":5003,"syscall":"listen","timestamp":"2025-03-19T19:03:32.747Z"}
