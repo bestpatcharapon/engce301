@@ -15,7 +15,7 @@
 
 **R1.3, **R2.2****
 
-![enter image description here](https://img5.pic.in.th/file/secure-sv1/1.390b898b63ae21bcb.png)
+![enter image description here](https://img5.pic.in.th/file/secure-sv1/Screenshot-2025-03-20-021635.png)
 
 
 **R1.4**
